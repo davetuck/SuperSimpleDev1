@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+.red-square {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.green-circle {
+  height: 100px;
+  width: 100px;
+  background-color: green;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.satisfied {
+  border: 3px solid rgb(239, 239, 239);
+  width: 350px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.youtube-music {
+  width: 450px;
+  background-color: black;
+  padding: 1px 20px;
+  margin-top: 10px;
+}
+
+h1 {
+  color: white;
+  font-weight: 400;
+}
+
+.satisfied-text {
+  color: gray;
+}
+
+.twitter-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  box-shadow: 0 0 8px rgb(0, 0, 0, 0.25);
+  width: 510px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.twitpic {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 0;
+  margin-right: 10px;
+}
+
+.twitter {
+  border: none;
+  margin-top: 0;
+  width: 335px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  font-size: 20px;
+}
+
+.tweet-button {
+  background-color: rgba(1, 103, 213, 0.848);
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+  font-weight: 700;
+  margin-left: 10px;
+}
+
+.add-friend {
+  width: 175px;
+  border: none;
+  box-shadow: 0 0 8px rgb(0, 0, 0, 0.25);
+  margin-top: 50px;
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.profile-pic-square {
+  height: 175px;
+  width: 175px;
+  object-fit: cover;
+}
+
+.name-text,
+.friends-text {
+  margin-left: 8px;
+}
+
+.name-text {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.friends-text {
+  font-size: 15px;
+  color: gray;
+  margin-top: 0;
+}
+
+.add-friend-button {
+  margin-left: 8px;
+  margin-bottom: 10px;
+  background-color: rgb(12, 99, 228);
+  color: white;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 3px;
+}

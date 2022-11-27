@@ -1,0 +1,23 @@
+.photo-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.firestare-rounded {
+  width: 200px;
+  border-radius: 12px;
+}
+
+.firesquare {
+  margin-top: 10px;
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
+.firecircle {
+  margin-top: 10px;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
